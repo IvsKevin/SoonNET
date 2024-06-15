@@ -12,6 +12,7 @@ namespace UserLayer
                         "~/Scripts/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/complements").Include(
+                        "~/Scripts/fontawesome/all.min.js",
                         "~/Scripts/scripts.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
